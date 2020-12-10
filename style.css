@@ -1,0 +1,30 @@
+:root {
+    --bgcolor: #000000;
+    --txtcolor: #33a000;
+}
+
+body {
+    background-color: var(--bgcolor);
+    color: var(--txtcolor);
+    font-family: 'Poppins';
+    }
+button {
+    background-color: var(--bgcolor);
+    border: 2px solid var(--txtcolor) ;
+    color: var(--txtcolor);
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    padding: 16px;
+    font-family: 'Poppins';
+    font-size: large;
+}
+button:hover {
+    background-color: var(--txtcolor);
+    color: var(--bgcolor);
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
